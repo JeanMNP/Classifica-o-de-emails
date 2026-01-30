@@ -2,7 +2,7 @@
 
 Este projeto é uma aplicação web simples que utiliza **Inteligência Artificial** para:
 - Classificar emails em **Produtivo** ou **Improdutivo**.
-- Sugerir respostas automáticas adequadas à categoria identificada.
+- Sugerir respostas automáticas adequadas à categoria identificada (em Progresso e não finalizado).
 
 O objetivo é **automatizar a leitura e resposta de emails**, liberando tempo da equipe e aumentando a produtividade.
 
