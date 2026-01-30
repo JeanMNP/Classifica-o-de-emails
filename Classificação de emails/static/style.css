@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Papyrus";
+    
+}
+/*Paleta utilizada: como foi utilizado um tema d efoguete e estrela, teremos uma paleta cósmica*/
+
+body{
+    background-color: #262d2f;
+    color: #83b3b0;
+}
+
+textarea { 
+    background-color: #778c96;
+    color: #83b3b0;
+    width: 100%;
+    height: 150px; 
+    margin-bottom: 20px; 
+
+} 
+
+input[type="file"]::file-selector-button{
+    font-family: "Papyrus";
+    background-color: #904a40;
+    color: #a18463;
+    padding: 8px 16px; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    opacity: 0.9; 
+    font-weight: bold;
+}
+
+input[type="file"]::file-selector-button:hover { 
+    opacity: 1;
+}
+
+button { 
+    padding: 10px 20px;
+    border-radius: 4px;  
+    background-color: #904a40; 
+    color: #a18463; 
+    border: none; 
+    cursor: pointer;
+    opacity: 0.9;
+    font-weight: bold; 
+}
+
+button:hover { 
+    opacity: 1;
+} 
+
+.result { 
+    margin-top: 20px; 
+    padding: 15px; 
+    border: 1px solid #904a40; 
+    background-color: #295555; 
+}
